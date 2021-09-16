@@ -5,6 +5,7 @@ const Cart = () => {
     return (
         <button id="shopping-cart">
             <FontAwesomeIcon icon={faShoppingCart}/>
+            &ensp;Carrinho
         </button>
     );
 }
