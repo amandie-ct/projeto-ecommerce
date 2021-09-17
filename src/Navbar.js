@@ -8,9 +8,12 @@ const Navbar = () => {
     return (
         <nav className="nav-bar">
             <div className="navbar-main">
+                <h1 id="logo">Dale suplementos</h1>
                 <SearchBar/>
-                <Login/>
-                <Cart/>
+                <div>
+                    <Login/>
+                    <Cart/>
+                </div>
             </div>
             <Menu/>
             <FreteInfo/>
